@@ -38,3 +38,8 @@ System.load(dllLocation.getAbsolutePath());
 MyDLL myDLL = Native.load("MyDLL.dll", MyDLL.class);
 myDLL.someFunc();
 ```
+
+## Usage
+
+ - add it to your `gradle`/`maven` project via [JitPack](https://jitpack.io/#JasperGeurtz/MemDLL)
+ - alternatively download the latest jar from the [releases](https://github.com/JasperGeurtz/MemDLL/releases)
