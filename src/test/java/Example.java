@@ -20,7 +20,7 @@ public class Example {
 
         // load dll
         System.load(dllLocation.getAbsolutePath());
-        MyDLL myDLL = Native.load("MyDLL.dll", MyDLL.class);
+        MyDLL myDLL = Native.load("MyDLL", MyDLL.class);
         myDLL.someFunc();
     }
 
